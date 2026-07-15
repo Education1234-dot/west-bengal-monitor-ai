@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.status-card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.status-card h2 {
+  color: #667eea;
+  margin-bottom: 20px;
+}
+
+.status-card p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.error {
+  color: #e74c3c;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .status-card {
+    padding: 20px;
+  }
+}
